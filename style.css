@@ -1,0 +1,80 @@
+/* Index */
+
+body {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+img {
+  width: 200px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th, td {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a, a{
+  color: #ed460f;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+/* Hobbies */
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.playing {
+  display: block;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Contact Me */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.field {
+  width: 80%;
+  padding: 10px 15px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ed460f;
+}
+
+.submit {
+  background-color: #ed460f;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
+}
